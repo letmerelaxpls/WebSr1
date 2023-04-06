@@ -1,0 +1,517 @@
+body {
+	font-family: Moul;
+}
+.ResumeBack { 
+	background-color:rgba(255, 255, 255, 1);
+	width:1240px;
+	height:1268px;
+	position:absolute;
+}
+.HeadLine {
+	background-color: rgba(102, 19, 102, 1);
+	width: 1240px;
+	height: 15px;
+}
+.Name {
+	position: absolute;
+	left: 427px;
+	top: 124px;
+	font-size: 64px;
+}
+.DesiredPosition {
+	position: absolute;
+	left: 427px;
+	top: 274px;
+	font-family: Moulpali;
+	font-size: 20px;
+}
+.PositionLine { 
+	background-color:rgba(204, 204, 204, 1);
+	width:1064px;
+	height:3px;
+	position:absolute;
+	left:75px;
+	top:318px;
+}
+.EducationBlock {
+	position: absolute;
+	left: 420px;
+	top: 350px;
+	width: 820px;
+	height: 250px;
+}
+.WorkBlock {
+	position: absolute;
+	left: 420px;
+	top: 620px;
+	width: 820px;
+	height: 250px;
+}
+.AchieveBlock {
+	position: absolute;
+	left: 420px;
+	top: 880px;
+	width: 820px;
+	height: 250px;
+}
+.EducationRoundLine {
+	width: 503px;
+	height: 8px;
+	position: absolute;
+	left: 300px;
+	top: 35px;
+}
+.EducationLine {
+	background-color: rgba(51, 51, 51, 1);
+	width: 496px;
+	height: 4px;
+	position: absolute;
+	left: 7px;
+	top: 2px;
+}
+.EducationRound {
+	border-radius: 4px;
+	background-color: rgba(51, 51, 51, 1);
+	width: 8px;
+	height: 8px;
+}
+.WorkRoundLine {
+	width: 428px;
+	height: 8px;
+	position: absolute;
+	left: 375px;
+	top: 35px;
+}
+.WorkLine {
+	background-color: rgba(51, 51, 51, 1);
+	width: 421px;
+	height: 4px;
+	position: absolute;
+	left: 7px;
+	top: 2px;
+}
+.WorkRound {
+	border-radius: 4px;
+	background-color: rgba(51, 51, 51, 1);
+	width: 8px;
+	height: 8px;
+}
+.EducationTree {
+	width: 123px;
+	height: 223px;
+	position: absolute;
+	top: 6px;
+}
+.BookRound {
+	border-radius: 40px;
+	background-color: rgba(0, 0, 0, 1);
+	width: 67px;
+	height: 67px;
+}
+.EduTreeLine1 { 
+	background-color:rgba(0, 0, 0, 1);
+	width:4px;
+	height:156px;
+	position:absolute;
+	left:32px;
+	top:67px;
+}
+.EduTreeLine2 { 
+	background-color:rgba(0, 0, 0, 1);
+	width:87px;
+	height:4px;
+	position:absolute;
+	left:36px;
+	top:142px;
+}
+.Book {
+	width: 37px;
+	height: 40px;
+	position: absolute;
+	left: 15px;
+	top: 14px;
+	background-image: url(images/book.png);
+	background-size: cover;
+}
+.Education {
+	position: absolute;
+	left: 100px;
+	top: 20px;
+	font-size: 24px;
+}
+.EduText1 {
+	position: absolute;
+	left: 165px;
+	top: 115px;
+	font-size: 24px;
+}
+.WorkExp {
+	position: absolute;
+	left: 100px;
+	top: 22px;
+	font-size: 20px;
+}
+.EduDate {
+	color: rgba(102, 0, 153, 1);
+	width: 47px;
+	position: absolute;
+	left: 90;
+	top: 125px;
+	font-family: Roboto;
+}
+.WorkDate {
+	color: rgba(102, 0, 153, 1);
+	width: 50px;
+	position: absolute;
+	left: 86px;
+	top: 125px;
+	font-family: Roboto;
+}
+.WorkTree {
+	width: 123px;
+	height: 223px;
+}
+.WorkImgRound {
+	border-radius: 40px;
+	background-color: rgba(0, 0, 0, 1);
+	width: 67px;
+	height: 67px;
+}
+.WorkImg {
+	width: 42px;
+	height: 42px;
+	position: absolute;
+	left: 10px;
+	top: 13px;
+	background-image: url(images/work.png);
+	background-size: cover;
+}
+.WorkTreeLine2 {
+	background-color: rgba(0, 0, 0, 1);
+	width: 87px;
+	height: 5px;
+	position: absolute;
+	left: 35px;
+	top: 142px;
+}
+.WorkTreeLine1 {
+	background-color: rgba(0, 0, 0, 1);
+	width: 4px;
+	height: 156px;
+	position: absolute;
+	left: 31px;
+	top: 67px;
+}
+.AchieveRoundLine {
+	width: 485px;
+	height: 8px;
+	position: absolute;
+	left: 320px;
+	top: 48px;
+}
+.AchieveLine {
+	background-color: rgba(51, 51, 51, 1);
+	width: 478px;
+	height: 4px;
+	position: absolute;
+	left: 7px;
+	top: 2px;
+}
+.AchieveRound {
+	border-radius: 4px;
+	background-color: rgba(51, 51, 51, 1);
+	width: 8px;
+	height: 8px;
+}
+.Achievements {
+	position: absolute;
+	left: 100px;
+	top: 35px;
+	font-size: 20px;
+}
+.AchieveTree {
+	width: 122px;
+	height: 223px;
+}
+.RocketRound {
+	border-radius: 40px;
+	background-color: rgba(0, 0, 0, 1);
+	width: 67px;
+	height: 67px;
+}
+.Rocket {
+	width: 34px;
+	height: 33px;
+	position: absolute;
+	left: 17px;
+	top: 17px;
+	background-image: url(images/rocket.png);
+	background-size: cover;
+}
+.AchTreeLine1 { 
+	background-color:rgba(0, 0, 0, 1);
+	width:4px;
+	height:156px;
+	position:absolute;
+	left:32px;
+	top:67px;
+}
+.AchTreeLine2 { 
+	background-color:rgba(0, 0, 0, 1);
+	width:87px;
+	height:5px;
+	position:absolute;
+	left:35px;
+	top:138px;
+}
+.AchieveText1 {
+	position: absolute;
+	left: 165px;
+	top: 115px;
+	font-size: 20px;
+}
+.AchieveText2 {
+	color: rgba(115, 115, 115, 1);
+	width: 336px;
+	position: absolute;
+	left: 165px;
+	top: 150px;
+	font-family: Roboto;
+	font-size: 20px;
+}
+.EduText2 {
+	color: rgba(115, 115, 115, 1);
+	width: 320px;
+	position: absolute;
+	left: 165px;
+	top: 150px;
+	font-family: Roboto;
+	font-size: 20px;
+}
+.WorkText2 {
+	color: rgba(115, 115, 115, 1);
+	width: 368px;
+	height: 23px;
+	position: absolute;
+	left: 165px;
+	top: 150px;
+	font-family: Roboto;
+	font-size: 20px;
+}
+.WorkText1 {
+	position: absolute;
+	left: 165px;
+	top: 115px;
+	font-size: 20px;
+}
+.PhoneNumber {
+	color: rgba(115, 115, 115, 1);
+	position: absolute;
+	left: 40px;
+	top: 50px;
+	font-family: Roboto;
+}
+.FacebookID {
+	color: rgba(115, 115, 115, 1);
+	position: absolute;
+	left: 40px;
+	top: 125px;
+	font-family: Roboto;
+}
+.AdressAdress {
+	color: rgba(115, 115, 115, 1);
+	position: absolute;
+	left: 40px;
+	top: 100px;
+	font-family: Roboto;
+}
+.EmailAdress {
+	color: rgba(115, 115, 115, 1);
+	position: absolute;
+	left: 40px;
+	top: 74px;
+	font-family: Roboto;
+}
+.ContactsBlock {
+	width: 210px;
+	height: 146px;
+	position: absolute;
+	left: 75px;
+	top: 362px;
+}
+.AboutBlock {
+	width: 310px;
+	height: 146px;
+	position: absolute;
+	left: 75px;
+	top: 543px;
+}
+.LanguagesBlock {
+	width: 310px;
+	height: 146px;
+	position: absolute;
+	left: 75px;
+	top: 715px;
+}
+.SkillsBlock {
+	width: 310px;
+	height: 160px;
+	position: absolute;
+	left: 75px;
+	top: 883px;
+}
+.Contacts {
+	font-size: 20px;
+}
+
+.Phone {
+	width: 27px;
+	height: 22px;
+	position: absolute;
+	top: 50px;
+	background-image: url(images/phone.png);
+	background-size: cover;
+}
+.Email {
+	width: 20px;
+	height: 14px;
+	position: absolute;
+	left: 3px;
+	top: 78px;
+	background-image: url(images/email.png);
+	background-size: cover;
+}
+.Adress { 
+	width:18px;
+	height:19px;
+	position:absolute;
+	left:4px;
+	top:98px;
+	background-image:url(images/adress.png);
+	background-size:cover;
+}
+.Facebook { 
+	width:10px;
+	height:23px;
+	position:absolute;
+	left:8px;
+	top:123px;
+	background-image:url(images/facebook.png);
+	background-size:cover;
+}
+.About {
+	font-size: 20px;
+}
+.Age {
+	color: rgba(115, 115, 115, 1);
+	position: absolute;
+	left: 0px;
+	top: 45px;
+	font-family: Roboto;
+	font-size: 20px;
+}
+.AboutText {
+	color: rgba(115, 115, 115, 1);
+	width: 302px;
+	position: absolute;
+	left: 0px;
+	top: 75px;
+	font-family: Roboto;
+	font-size: 20px;
+}
+.Languages {
+	font-size: 20px;
+}
+.English {
+	position: absolute;
+	left: 0px;
+	top: 50px;
+}
+.EnglishLevel {
+	color: rgba(115, 115, 115, 1);
+	position: absolute;
+	left: 120px;
+	top: 52px;
+	font-family: Roboto;
+}
+.Skills {
+	font-size: 20px;
+}
+.Excel {
+	position: absolute;
+	top: 35px;
+	left: 0px;
+}
+.CSharp {
+	position: absolute;
+	left: 0px;
+	top: 68px;
+}
+.CPlusPlus {
+	position: absolute;
+	left: 0px;
+	top: 101px;
+}
+.SQL {
+	position: absolute;
+	left: 0px;
+	top: 133px;
+}
+.HobbiesBlock { 
+	width:234px;
+	height:107px;
+	position:absolute;
+	left:42px;
+	top:1092px;
+}
+.Hobbies {
+	position: absolute;
+	left: 33px;
+	font-size: 20px;
+}
+.HobbiesPhoto {
+	width: 234px;
+	height: 71px;
+	position: absolute;
+	top: 36px;
+	background-image: url(images/hobbies.png);
+	background-size: cover;
+}
+.PhotoBlock {
+	width: 181px;
+	height: 181px;
+	position: absolute;
+	left: 117px;
+	top: 96px;
+}
+.PhotoRound {
+	border-radius: 100px;
+	background-color: rgba(102, 51, 102, 1);
+	width: 181px;
+	height: 181px;
+}
+.Photo {
+	width: 173px;
+	height: 173px;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+	border-top-left-radius: 100px;
+	border-top-right-radius: 100px;
+	border-bottom-left-radius: 100px;
+	border-bottom-right-radius: 100px;
+	background-image: url(images/me.png);
+	background-size: cover;
+}
+.AchieveDate {
+	color: rgba(102, 0, 153, 1);
+	position: absolute;
+	left: 88px;
+	top: 122px;
+	font-family: Roboto;
+}
+.Ukrainian {
+	position: absolute;
+	left: 0px;
+	top: 90px;
+}
